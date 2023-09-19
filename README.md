@@ -29,6 +29,7 @@ Data Models:
 - Comment: Represents comment data, including post ID, name, email, body, and created date-time.
 
 DbContext: AppDbContext is a database context class that uses Entity Framework Core to manage database operations. It defines the structure of the database and handles migrations.
+
 Data Retrieval: The application fetches data from the JSONPlaceholder API for posts, comments, and users using HttpClient.
 
 Database Schema:
